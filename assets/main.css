@@ -6,7 +6,8 @@ h1 {
 
 .container {
   width: 80%;
-  marign: auto; }
+  marign: auto;
+  font-family: 'Roboto'; }
 
 .navbar-default {
   min-height: 30px;
@@ -86,3 +87,62 @@ h1 {
           width: 200px; }
           .heading .container .search .searchbox input:focus {
             outline: none; }
+
+.hero {
+  min-height: 300px;
+  background-image: url("/img/background.jpg");
+  background-position: center; }
+  .hero .container {
+    min-height: 300px;
+    position: relative; }
+    .hero .container .content {
+      color: #fff;
+      background-color: rgba(73, 73, 72, 0.95);
+      position: absolute;
+      bottom: 0px;
+      padding: 10px 10px; }
+      .hero .container .content div {
+        display: inline-block;
+        width: 48%;
+        padding: 0 10px; }
+        .hero .container .content div:first-child {
+          border-right: 1px solid #666; }
+        .hero .container .content div h2 {
+          font-family: 'Roboto';
+          font-weight: 100; }
+        .hero .container .content div button {
+          background: none;
+          border: 1px solid #999;
+          padding: 8px;
+          font-size: 11px; }
+        .hero .container .content div img {
+          display: inline-block;
+          width: 20%;
+          vertical-align: baseline; }
+        .hero .container .content div p {
+          display: inline-block;
+          width: 75%;
+          font-size: 10px;
+          vertical-align: top;
+          padding: 10px; }
+
+.information .container {
+  margin-top: 10px; }
+  .information .container h2 {
+    color: #999;
+    font-weight: 300;
+    font-size: 20px; }
+    .information .container h2 span {
+      color: #c30930;
+      font-weight: 500; }
+  .information .container p {
+    font-weight: 300;
+    font-size: 12px; }
+  .information .container div {
+    display: inline-block;
+    width: 48%;
+    vertical-align: text-top; }
+    .information .container div h3 {
+      font-weight: 300;
+      font-size: 18px;
+      color: #ccc; }
