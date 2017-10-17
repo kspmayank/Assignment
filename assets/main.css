@@ -3,3 +3,86 @@
 
 h1 {
   text-align: center; }
+
+.container {
+  width: 80%;
+  marign: auto; }
+
+.navbar-default {
+  min-height: 30px;
+  font-size: 9px;
+  color: #fff;
+  background-color: #c30930;
+  border-radius: 0;
+  margin-bottom: 0;
+  border: 0; }
+  .navbar-default .navbar-nav {
+    margin-left: 20%; }
+  .navbar-default .navbar-nav > li > a {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: #fff; }
+  .navbar-default .profile-img {
+    border-radius: 100%;
+    margin-left: 5px; }
+
+.navbar-secondary {
+  min-height: 10px;
+  font-size: 7px;
+  color: #848484;
+  background-color: #f0f0f0;
+  border-radius: 0;
+  margin-bottom: 0; }
+  .navbar-secondary .navbar-right:last-child {
+    margin-right: 0; }
+  .navbar-secondary .navbar-right .glyphicon:before {
+    margin: 3px;
+    vertical-align: middle; }
+  .navbar-secondary .navbar-nav > li > a {
+    padding-top: 3px;
+    padding-bottom: 3px;
+    color: #848484;
+    padding: 3px 5px;
+    line-height: 12px; }
+
+.heading {
+  background-color: #f4f4f4;
+  height: 70px; }
+  .heading .container {
+    position: relative; }
+    .heading .container .branding {
+      display: inline-block;
+      color: #fff;
+      text-align: center;
+      background-color: #c30930;
+      width: 100px;
+      height: 70px;
+      position: relative;
+      top: -20px; }
+      .heading .container .branding p {
+        position: absolute;
+        top: 25px;
+        left: 15px; }
+    .heading .container .content {
+      display: inline-block;
+      position: absolute;
+      top: 30px;
+      left: 15%;
+      color: #939393;
+      font-size: 16px; }
+      .heading .container .content div {
+        display: inline; }
+    .heading .container .search {
+      position: absolute;
+      right: 0;
+      top: 30px; }
+      .heading .container .search .searchbox {
+        background-color: #fff;
+        border: 1px solid #ccc;
+        padding: 2px 5px;
+        font-size: 10px; }
+        .heading .container .search .searchbox input {
+          border: 0;
+          width: 200px; }
+          .heading .container .search .searchbox input:focus {
+            outline: none; }
