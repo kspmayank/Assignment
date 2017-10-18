@@ -9,6 +9,9 @@ h1 {
   marign: auto;
   font-family: 'Roboto'; }
 
+body {
+  background-color: #f4f4f4; }
+
 .navbar-default {
   min-height: 30px;
   font-size: 9px;
@@ -146,3 +149,71 @@ h1 {
       font-weight: 300;
       font-size: 18px;
       color: #ccc; }
+
+.experts {
+  margin: 20px 0; }
+  .experts .container h2 {
+    font-size: 20px;
+    font-weight: 400;
+    color: #555; }
+  .experts .container .card .name {
+    background-color: #fff;
+    padding: 10px; }
+    .experts .container .card .name h3 {
+      font-size: 14px;
+      font-weight: 400;
+      margin: 0;
+      color: #666; }
+    .experts .container .card .name p {
+      font-size: 12px;
+      margin: 0;
+      color: #999; }
+  .experts .connect div {
+    display: block; }
+    .experts .connect div .topic {
+      background-color: #fff;
+      border: 0;
+      font-size: 10px;
+      width: 400px;
+      height: 25px;
+      margin: 5px 0;
+      padding: 5px; }
+      .experts .connect div .topic:focus {
+        outline: 0; }
+    .experts .connect div textarea {
+      border: 0;
+      height: 100px;
+      width: 400px;
+      font-size: 10px;
+      margin: 5px 0;
+      padding: 5px; }
+      .experts .connect div textarea:focus {
+        outline: 0; }
+    .experts .connect div input[type="submit"] {
+      background-color: #636562;
+      border: 0;
+      color: #fff;
+      font-size: 12px;
+      font-weight: 300;
+      padding: 5px 15px;
+      margin: 5px 0; }
+
+footer {
+  background-color: #363636;
+  color: #878788;
+  padding: 10px 0 50px 0; }
+  footer h3 {
+    font-size: 16px;
+    font-weight: 400px; }
+  footer ul {
+    list-style: none;
+    margin: 0;
+    padding: 0; }
+    footer ul li:hover {
+      cursor: pointer; }
+    footer ul li a {
+      color: #878788;
+      font-size: 12px; }
+      footer ul li a:hover {
+        text-decoration: none;
+        color: #fff; }
